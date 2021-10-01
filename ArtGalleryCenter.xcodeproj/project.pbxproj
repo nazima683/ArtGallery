@@ -9,12 +9,20 @@
 /* Begin PBXBuildFile section */
 		ADD6087127048A8000666139 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADD6087027048A8000666139 /* AppDelegate.swift */; };
 		ADD6087327048A8000666139 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADD6087227048A8000666139 /* SceneDelegate.swift */; };
-		ADD6087527048A8000666139 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADD6087427048A8000666139 /* ViewController.swift */; };
+		ADD6087527048A8000666139 /* HomeScreenVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADD6087427048A8000666139 /* HomeScreenVC.swift */; };
 		ADD6087827048A8000666139 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADD6087627048A8000666139 /* Main.storyboard */; };
 		ADD6087A27048A8200666139 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ADD6087927048A8200666139 /* Assets.xcassets */; };
 		ADD6087D27048A8200666139 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADD6087B27048A8200666139 /* LaunchScreen.storyboard */; };
 		ADD6088827048A8200666139 /* ArtGalleryCenterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADD6088727048A8200666139 /* ArtGalleryCenterTests.swift */; };
 		ADD6089327048A8200666139 /* ArtGalleryCenterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADD6089227048A8200666139 /* ArtGalleryCenterUITests.swift */; };
+		ADD608A12705541400666139 /* HomeScreenModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADD608A02705541400666139 /* HomeScreenModel.swift */; };
+		ADD608A52705559300666139 /* Cell1TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADD608A42705559300666139 /* Cell1TableViewCell.swift */; };
+		ADD608AB27057D1400666139 /* Barlow-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = ADD608AA27055AA000666139 /* Barlow-ExtraLight.ttf */; };
+		ADD608AC27057D1800666139 /* BarlowCondensed-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = ADD608A827055A5900666139 /* BarlowCondensed-ExtraLight.ttf */; };
+		ADD608AD27057D1F00666139 /* BarlowCondensed-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = ADD608A727055A5800666139 /* BarlowCondensed-Light.ttf */; };
+		ADD608AE27057D2300666139 /* BarlowCondensed-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = ADD608A927055A5900666139 /* BarlowCondensed-Medium.ttf */; };
+		ADD608B12707086F00666139 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADD608B02707086F00666139 /* RegisterViewController.swift */; };
+		ADD608B3270708AF00666139 /* RegisterModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADD608B2270708AF00666139 /* RegisterModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +46,7 @@
 		ADD6086D27048A8000666139 /* ArtGalleryCenter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ArtGalleryCenter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ADD6087027048A8000666139 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ADD6087227048A8000666139 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		ADD6087427048A8000666139 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		ADD6087427048A8000666139 /* HomeScreenVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreenVC.swift; sourceTree = "<group>"; };
 		ADD6087727048A8000666139 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		ADD6087927048A8200666139 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ADD6087C27048A8200666139 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +57,14 @@
 		ADD6088E27048A8200666139 /* ArtGalleryCenterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ArtGalleryCenterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		ADD6089227048A8200666139 /* ArtGalleryCenterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtGalleryCenterUITests.swift; sourceTree = "<group>"; };
 		ADD6089427048A8300666139 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ADD608A02705541400666139 /* HomeScreenModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreenModel.swift; sourceTree = "<group>"; };
+		ADD608A42705559300666139 /* Cell1TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cell1TableViewCell.swift; sourceTree = "<group>"; };
+		ADD608A727055A5800666139 /* BarlowCondensed-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "BarlowCondensed-Light.ttf"; sourceTree = "<group>"; };
+		ADD608A827055A5900666139 /* BarlowCondensed-ExtraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "BarlowCondensed-ExtraLight.ttf"; sourceTree = "<group>"; };
+		ADD608A927055A5900666139 /* BarlowCondensed-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "BarlowCondensed-Medium.ttf"; sourceTree = "<group>"; };
+		ADD608AA27055AA000666139 /* Barlow-ExtraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Barlow-ExtraLight.ttf"; sourceTree = "<group>"; };
+		ADD608B02707086F00666139 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		ADD608B2270708AF00666139 /* RegisterModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,9 +115,11 @@
 		ADD6086F27048A8000666139 /* ArtGalleryCenter */ = {
 			isa = PBXGroup;
 			children = (
+				ADD608AF2707067A00666139 /* Registeration */,
+				ADD608A627055A1100666139 /* CustomFonts */,
 				ADD6087027048A8000666139 /* AppDelegate.swift */,
 				ADD6087227048A8000666139 /* SceneDelegate.swift */,
-				ADD6087427048A8000666139 /* ViewController.swift */,
+				ADD608A22705542100666139 /* HomeScreen */,
 				ADD6087627048A8000666139 /* Main.storyboard */,
 				ADD6087927048A8200666139 /* Assets.xcassets */,
 				ADD6087B27048A8200666139 /* LaunchScreen.storyboard */,
@@ -126,6 +144,44 @@
 				ADD6089427048A8300666139 /* Info.plist */,
 			);
 			path = ArtGalleryCenterUITests;
+			sourceTree = "<group>";
+		};
+		ADD608A22705542100666139 /* HomeScreen */ = {
+			isa = PBXGroup;
+			children = (
+				ADD608A32705543300666139 /* CustomCell */,
+				ADD6087427048A8000666139 /* HomeScreenVC.swift */,
+				ADD608A02705541400666139 /* HomeScreenModel.swift */,
+			);
+			path = HomeScreen;
+			sourceTree = "<group>";
+		};
+		ADD608A32705543300666139 /* CustomCell */ = {
+			isa = PBXGroup;
+			children = (
+				ADD608A42705559300666139 /* Cell1TableViewCell.swift */,
+			);
+			path = CustomCell;
+			sourceTree = "<group>";
+		};
+		ADD608A627055A1100666139 /* CustomFonts */ = {
+			isa = PBXGroup;
+			children = (
+				ADD608AA27055AA000666139 /* Barlow-ExtraLight.ttf */,
+				ADD608A827055A5900666139 /* BarlowCondensed-ExtraLight.ttf */,
+				ADD608A727055A5800666139 /* BarlowCondensed-Light.ttf */,
+				ADD608A927055A5900666139 /* BarlowCondensed-Medium.ttf */,
+			);
+			path = CustomFonts;
+			sourceTree = "<group>";
+		};
+		ADD608AF2707067A00666139 /* Registeration */ = {
+			isa = PBXGroup;
+			children = (
+				ADD608B02707086F00666139 /* RegisterViewController.swift */,
+				ADD608B2270708AF00666139 /* RegisterModel.swift */,
+			);
+			path = Registeration;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,8 +288,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				ADD6087D27048A8200666139 /* LaunchScreen.storyboard in Resources */,
+				ADD608AB27057D1400666139 /* Barlow-ExtraLight.ttf in Resources */,
+				ADD608AD27057D1F00666139 /* BarlowCondensed-Light.ttf in Resources */,
 				ADD6087A27048A8200666139 /* Assets.xcassets in Resources */,
 				ADD6087827048A8000666139 /* Main.storyboard in Resources */,
+				ADD608AE27057D2300666139 /* BarlowCondensed-Medium.ttf in Resources */,
+				ADD608AC27057D1800666139 /* BarlowCondensed-ExtraLight.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,8 +318,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ADD6087527048A8000666139 /* ViewController.swift in Sources */,
+				ADD6087527048A8000666139 /* HomeScreenVC.swift in Sources */,
+				ADD608B3270708AF00666139 /* RegisterModel.swift in Sources */,
 				ADD6087127048A8000666139 /* AppDelegate.swift in Sources */,
+				ADD608A12705541400666139 /* HomeScreenModel.swift in Sources */,
+				ADD608B12707086F00666139 /* RegisterViewController.swift in Sources */,
+				ADD608A52705559300666139 /* Cell1TableViewCell.swift in Sources */,
 				ADD6087327048A8000666139 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
