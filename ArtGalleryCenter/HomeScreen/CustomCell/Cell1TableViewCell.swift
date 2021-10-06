@@ -38,13 +38,9 @@ class Cell3TableViewCell: UITableViewCell {
         // Initialization code
     }
     
-    func setUpCell() {
-//        titleLabel.addCharacterSpacing(kernValue: -0.6)
-//        meAsCollectorLabel.addCharacterSpacing(kernValue: -1.17)
-//        registerLabel.addCharacterSpacing(kernValue: -1.17)
-//        travkMyAppLabel.addCharacterSpacing(kernValue: -0.88)
+    override func layoutSubviews() {
+        self.registerButtonView.layer.cornerRadius = 10.0
     }
-
 }
 
 class Cell4TableViewCell: UITableViewCell {
@@ -79,6 +75,20 @@ class Cell6TableViewCell: UITableViewCell {
 
 class RegisterCustomCell1: UITableViewCell {
 
+    @IBOutlet weak var accountIconView: UIView!
+    override func awakeFromNib() {
+        super.awakeFromNib()
+        // Initialization code
+    }
+    
+    override func layoutSubviews() {
+        self.accountIconView?.layer.cornerRadius = self.accountIconView.frame.size.width / 2.0
+    }
+
+}
+
+class RegisterCustomCell2: UITableViewCell {
+
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
@@ -86,8 +96,10 @@ class RegisterCustomCell1: UITableViewCell {
 
 }
 
-class RegisterCustomCell2: UITableViewCell {
+class RegisterCustomCell3: UITableViewCell {
 
+    @IBOutlet weak var rightImageView: UIImageView!
+    @IBOutlet weak var leftimageView: UIImageView!
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code

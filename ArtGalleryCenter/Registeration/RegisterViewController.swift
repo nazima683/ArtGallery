@@ -29,6 +29,10 @@ extension RegisterViewController: UITableViewDelegate, UITableViewDataSource {
             return cell1
         } else if let cell2 = tableView.dequeueReusableCell(withIdentifier: element.cellID, for: indexPath) as? RegisterCustomCell2 {
             return cell2
+        } else if let cell3 = tableView.dequeueReusableCell(withIdentifier: element.cellID, for: indexPath) as? RegisterCustomCell3 {
+            cell3.leftimageView.image = UIImage(named: element.icon1)
+            cell3.rightImageView.image = UIImage(named: element.icon2)
+            return cell3
         }
         return UITableViewCell()
     }

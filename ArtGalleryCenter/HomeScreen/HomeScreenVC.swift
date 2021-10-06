@@ -30,7 +30,6 @@ extension HomeScreenVC: UITableViewDelegate, UITableViewDataSource {
             return cell2
         } else if let cell3 = tableView.dequeueReusableCell(withIdentifier: element.cellID, for: indexPath) as? Cell3TableViewCell {
             cell3.registerButton.addTarget(self, action: #selector(self.onRegisterButtonClicked), for: .touchUpInside)
-            cell3.setUpCell()
             return cell3
         } else if let cell4 = tableView.dequeueReusableCell(withIdentifier: element.cellID, for: indexPath) as? Cell4TableViewCell {
             cell4.groupIcon.image = UIImage(named: element.icons)
